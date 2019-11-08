@@ -40,7 +40,7 @@
                         <ul class="d-flex flex-row align-items-start justify-content-start text-center">
                             <li><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="category.html">Woman</a></li>
-                            <li>New Products</li>
+                            <li>{{$product->name}}</li>
                         </ul>
                     </div>
                 </div>

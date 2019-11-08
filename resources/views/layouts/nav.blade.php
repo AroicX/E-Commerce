@@ -57,7 +57,7 @@
 				<a href="{{ url('/') }}">
 					<div class="d-flex flex-row align-items-center justify-content-start">
 						<div><img src="../images/logo_1.png" alt=""></div>
-						<div>Little Closet</div>
+						<div>Ayency Stores</div>
 					</div>
 				</a>	
 			</div>
@@ -100,7 +100,7 @@
 				@if (Route::has('login'))
 				@auth
 				<!-- User -->
-				<div class="user"><a href="{{ route('home') }}"><div><img src="../images/user.svg" alt="profile"><div>1</div></div></a></div>
+				<div class="user"><a href="{{ route('home') }}"><div><img src="../images/user.svg" alt="profile"></div></a></div>
 						@else
 						<div class="cart"><a href="{{ route('login') }}"><div><img class="svg" src="../images/password.svg" alt="login"></div></a></div>
 	

@@ -4,7 +4,7 @@
 @yield('title')
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Little Closet template">
+<meta name="description" content="Ayency Stores template">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap-4.1.2/bootstrap.min.css') }}">
 <link href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
@@ -14,6 +14,8 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/main_styles.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/toastr.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/loader.css') }}">
+
 @yield('style')
 </head>
 <body>
@@ -95,6 +97,13 @@
 
 
 </script>
+
+<!-- <script>
+	$(document).ready(function(){
+		alert('hey')
+	});
+        
+</script> -->
 
 </body>
 </html>

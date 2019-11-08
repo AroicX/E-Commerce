@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-<title>Cart - Little Closet</title>
+<title>Cart - Ayency Stores</title>
 @endsection
 
 
